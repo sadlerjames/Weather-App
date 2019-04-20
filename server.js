@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 
 const port = 3000;
-const apiKey = "8e8313b2aad0769023ba8069ce3f5133";
+const apiKey = "<Replace with your API key>";
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
